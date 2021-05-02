@@ -73,3 +73,31 @@ git push -u origin main
 ~~~git
 git clone <link do repositório>
 ~~~
+
+## Django
+
+### Criação do Projeto
+~~~Django
+django-admin startproject <nome_do_projeto>
+~~~
+
+### Criação de uma Aplicação
+~~~Django
+python manage.py startapp <nome_do_app>
+~~~
+
+### Migração do banco de dados
+~~~Django
+python manage.py makemigrations
+python manage.py migrate
+~~~
+
+### Rodar o servidor local
+~~~Django
+python manage.py runserver
+~~~
+
+### Criação de Super Usuario - admin
+~~~Django
+python manage.py createsuperuser
+~~~
