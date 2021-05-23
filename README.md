@@ -37,6 +37,17 @@ deactivate
 ### Instalação de pacotes
 Utilizar o pip normalmente
 
+### Instalação de dependências
+~~~shell
+pip install -r requirements.txt
+~~~
+
+### Criação de Lista de dependências
+~~~shell
+pip freeze > requirements.txt
+~~~
+
+
 ## GIT
 
 ### Iniciar
