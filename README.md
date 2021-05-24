@@ -60,6 +60,11 @@ git init
 git commit -m "Mensagem"
 ~~~
 
+### Criação de um branch
+~~~git
+git checkout -b <nome_da_branch_nova>
+~~~
+
 ### Escolha de branch
 ~~~git
 git branch -M main
