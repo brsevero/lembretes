@@ -19,7 +19,6 @@ int main()
 
 ### Criação: Rodar no terminal
 ~~~shell
-virtualenv <nome_da_pasta>
 python -m venv <nome_da_pasta>
 ~~~
 
