@@ -91,15 +91,11 @@ git clone <link do repositório>
 
 ### Configuração Inicial
 ~~~git
-
 git config --global user.name "Fulano de Tal"
-
 ~~~
 
 ~~~git
-
 git config --global user.email fulanodetal@exemplo.br
-
 ~~~
 
 ## Django
@@ -116,8 +112,15 @@ python manage.py startapp <nome_do_app>
 
 ### Migração do banco de dados
 ~~~Django
+
 python manage.py makemigrations
+
+~~~
+
+~~~Django
+
 python manage.py migrate
+
 ~~~
 
 ### Rodar o servidor local
