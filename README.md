@@ -89,6 +89,19 @@ git push -u origin main
 git clone <link do repositório>
 ~~~
 
+### Configuração Inicial
+~~~git
+
+git config --global user.name "Fulano de Tal"
+
+~~~
+
+~~~git
+
+git config --global user.email fulanodetal@exemplo.br
+
+~~~
+
 ## Django
 
 ### Criação do Projeto
