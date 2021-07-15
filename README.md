@@ -50,85 +50,86 @@ pip freeze > requirements.txt
 ## GIT
 
 ### Iniciar
-~~~git
+~~~Shell
 git init
 ~~~
 
 ### Commit
-~~~git
+~~~Shell
 git commit -m "Mensagem"
 ~~~
 
 ### Criação de um branch
-~~~git
+~~~Shell
 git checkout -b <nome_da_branch_nova>
 ~~~
 
+### Clonar uma brach específica
+~~~shell
+git clone -b <branch> <repositório_remoto>
+~~~
+
 ### Escolha de branch
-~~~git
+~~~Shell
 git branch -M main
 ~~~
 
 ### Colocar uma referência para um repositório
-~~~git
-git remote add origin <link do repositório> 
+~~~Shell
+git remote add origin <link_do_repositório> 
 ~~~
 
 ### Puxar da nuvem - pull
-~~~git
+~~~Shell
 git pull origin main
 ~~~
 
 ### Empurar pra nuvem - push
-~~~git
+~~~Shell
 git push -u origin main
 ~~~
 
 ### Clonagem
-~~~git
-git clone <link do repositório>
+~~~Shell
+git clone <link_do_repositório>
 ~~~
 
 ### Configuração Inicial
-~~~git
+~~~Shell
 git config --global user.name "Fulano de Tal"
 ~~~
 
-~~~git
+~~~Shell
 git config --global user.email fulanodetal@exemplo.br
 ~~~
 
 ## Django
 
 ### Criação do Projeto
-~~~Django
+~~~Python
 django-admin startproject <nome_do_projeto>
 ~~~
 
 ### Criação de uma Aplicação
-~~~Django
+~~~Python
 python manage.py startapp <nome_do_app>
 ~~~
 
 ### Migração do banco de dados
-~~~Django
-
+~~~Python
 python manage.py makemigrations
-
 ~~~
 
-~~~Django
-
+~~~Python
 python manage.py migrate
-
 ~~~
 
 ### Rodar o servidor local
-~~~Django
+~~~Python
 python manage.py runserver
 ~~~
 
 ### Criação de Super Usuario - admin
-~~~Django
+~~~Python
 python manage.py createsuperuser
 ~~~
