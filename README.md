@@ -69,6 +69,11 @@ git checkout -b <nome_da_branch_nova>
 git clone -b <branch> <repositório_remoto>
 ~~~
 
+### Visualizar todas as branches
+~~~shell
+git branch -a
+~~~
+
 ### Escolha de branch
 ~~~Shell
 git branch -M main
@@ -132,4 +137,26 @@ python manage.py runserver
 ### Criação de Super Usuario - admin
 ~~~Python
 python manage.py createsuperuser
+~~~
+
+## Docker
+
+### Ativar docker linux
+~~~shell
+sudo systemctl start docker
+~~~
+
+### Desativar docker linux
+~~~shell
+sudo systemctl stop docker
+~~~
+
+### Status Docker
+~~~shell
+sudo systemctl status docker
+~~~
+
+### executar um conteiner
+~~~shell
+docker exec -it [projeto] bash
 ~~~
