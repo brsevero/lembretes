@@ -156,7 +156,11 @@ sudo systemctl stop docker
 sudo systemctl status docker
 ~~~
 
-### executar um conteiner
+### Executar um conteiner interativo
 ~~~shell
 docker exec -it [projeto] bash
+~~~
+### executar um conteiner
+~~~shell
+sudo docker-compose up -d
 ~~~
