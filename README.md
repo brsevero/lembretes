@@ -1,22 +1,6 @@
 # lembretes Importantes
 
-~~~markdown
-marcação de deixar o código cru em alguma linguagem
-~~~~
-
-Em C, por exemplo:
-
-~~~C
-#include <stdio.h>
-int main()
-{
-    print("Hello World");
-    return 0;
-}
-~~~
-
 ## Máquinas Virtuais em Python
-
 ### Criação: Rodar no terminal
 ~~~shell
 python -m venv <nome_da_pasta>
@@ -48,7 +32,6 @@ pip freeze > requirements.txt
 
 
 ## GIT
-
 ### Iniciar
 ~~~Shell
 git init
@@ -109,7 +92,6 @@ git config --global user.email fulanodetal@exemplo.br
 ~~~
 
 ## Django
-
 ### Criação do Projeto
 ~~~Python
 django-admin startproject <nome_do_projeto>
@@ -140,7 +122,6 @@ python manage.py createsuperuser
 ~~~
 
 ## Docker
-
 ### Ativar docker linux
 ~~~shell
 sudo systemctl start docker
@@ -160,7 +141,20 @@ sudo systemctl status docker
 ~~~shell
 docker exec -it [projeto] bash
 ~~~
+
 ### executar um conteiner
 ~~~shell
 sudo docker-compose up -d
 ~~~
+
+## PHP
+### Limpar  o cache
+~~~php
+php artisan cache:clear
+~~~
+
+### mudar as configurações
+~~~php
+php artisan config:cache
+~~~
+
