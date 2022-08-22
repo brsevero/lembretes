@@ -91,6 +91,15 @@ git config --global user.name "Fulano de Tal"
 git config --global user.email fulanodetal@exemplo.br
 ~~~
 
+### Configuração Inicial para repositório local
+~~~Shell
+git config --local user.name "Fulano de Tal"
+~~~
+
+~~~Shell
+git config --local user.email fulanodetal@exemplo.br
+~~~
+
 ## Django
 ### Criação do Projeto
 ~~~Python
